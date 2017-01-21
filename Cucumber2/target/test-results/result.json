@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Search Kanika in Facebook with valid user login",
+        "description": "",
+        "id": ";search-kanika-in-facebook-with-valid-user-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the user is on login page of facebook",
+            "match": {
+              "location": "LoginSteps.the_user_is_on_login_page_of_facebook()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "the user choose to login",
+            "match": {
+              "location": "LoginSteps.the_user_choose_to_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "he provides user id as",
+            "match": {
+              "location": "LoginSteps.he_provides_user_id_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "he provides password",
+            "match": {
+              "location": "LoginSteps.he_provides_password_as_Fume_nana(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "he click on submit button",
+            "match": {
+              "location": "LoginSteps.he_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Successfully login",
+            "match": {
+              "location": "LoginSteps.successfully_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "As a user\r\nI want to be able to add new clients in the system\r\nSo that i can add accounting data for that client\r\nAs a facebook user \r\nI want to login and Search person name Kanika",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
